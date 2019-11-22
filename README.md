@@ -10,6 +10,7 @@ Personas que deseen crear sus propios diseños o desean una prenda más personal
 Ofrecemos un sitio dinámico, fácil de utilizar, donde podés visualizar todos los cambios / detalles en vivo conforme la vas diseñando. El sitio posee una sección de galería de clientes satisfechos usando sus productos, una sección de diseños populares pre-hechos más algunos creados por la comunidad. Adicionalmente el sitio cuenta con una guía de talles y una sección de Q&A, así como chat con un bot + agente.
 
 Sitios de referencia:
+
 https://www.printful.com/es/personalizables/ropa-mujer
 
 https://www.spreadshirt.com/custom/clothing
