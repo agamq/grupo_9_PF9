@@ -11,8 +11,13 @@ Ofrecemos un sitio dinámico, fácil de utilizar, donde podés visualizar todos 
 
 Sitios de referencia:
 https://www.printful.com/es/personalizables/ropa-mujer
+
 https://www.spreadshirt.com/custom/clothing
+
 https://www.apliiq.com/designyourown/
+
 https://www.rushordertees.com/
+
 https://www.customink.com/
+
 https://www.designhill.com/custom
