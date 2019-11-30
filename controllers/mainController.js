@@ -13,6 +13,22 @@ const controller = {
 		let html = readHTML('index');
 		res.send(html);
 	},
+	product: (req, res) => {
+		let html = readHTML('productDetail');
+		res.send(html);
+	},
+	cart: (req, res) => {
+		let html = readHTML('productCart');
+		res.send(html);
+	},
+	register: (req, res) => {
+		let html = readHTML('register');
+		res.send(html);
+	},
+	productAdd: (req, res) => {
+		let html= readHTML('productAdd');
+		res.send(html);
+	},
 };
 
 module.exports = controller
