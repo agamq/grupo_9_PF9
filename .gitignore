@@ -1,0 +1,4 @@
+# archivos ignorados en proyectos NPM
+node_modules/
+# archivos ignorados para sistemas MacOS
+.DS_Store
