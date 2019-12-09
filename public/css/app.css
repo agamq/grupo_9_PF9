@@ -179,8 +179,8 @@ header{
 .img3 {
   float: right;
   position: absolute;
-  right: 181px;
-  bottom: 5px;
+  left: 500px;
+  bottom: 15px;
   width: 10%;
   opacity: 100%;
 }

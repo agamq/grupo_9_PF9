@@ -1,193 +1,31 @@
-
-* {
-    box-sizing: border-box;
-  }
-  
-.container {
-    width: 1024px;
-    margin: auto;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-
-  /* HEADER */
-  header{
-    width: 100%;
-    height: 15vh;
-    padding: 10px 5px;
-    margin: 0px;
-    position: relative;
-    /*border: solid blue 3px;
-    background-color: cornflowerblue;*/
-    overflow: hidden;
-    border-bottom: solid grey 2px;
-  }
-   
-  .logo {
-    float: left;
-    position: absolute;
-    left: 0px;
-    top: 10px;
-  }
-  
-  .img1 {
-    width: 20%;
-  }
-   
-  .left-navbar {
-    float: left;
-    margin-top: 5px;
-    position: absolute;
-    left: 22%;
-    top: 70px;
-  }
-  
-  .right-navbar {
-    float: right;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  
-  .left-navbar li {
-    display: inline-block;
-    margin: 0 15px;
-    text-transform: uppercase;
-  }
-  
-  .right-navbar li {
-    margin: 10px 15px 15px 0px;
-    text-transform: uppercase;
-  }
-  
-  .left-navbar ul li a,
-  .right-navbar ul li a {
-    color: rgb(83, 81, 81);
-    font-size: 16px;
-  }
-  
-/* CUADRO CENTRAL */
-.d1 {
-    overflow: hidden;
-    width: 100%;
-    margin: 5px 0px;
-    height: 70vh;
-    position: relative;
+.register form {
+  max-width: 40rem;    
+  padding:2px;
+  cursor:pointer;
+  display:block;
+  margin: 0 auto;
+  text-align:left;
 }
 
-.section1 {
-    float: left;
-    position: absolute;
-    left: 25%;
-    top: 0%;
-    width: 50%;
-    padding: 0px;
-    margin: 5px;
-   /*border: solid red 3px;*/
-  }
-
-  .section2 {
-    float: left;
-    position: absolute;
-    left: 25%;
-    bottom: 0%;
-    width: 50%;
-    padding: 0px;
-    margin: 5px;
-   /* border: solid red 3px;*/
-  }
-
-h1,
-h2 {
-    font-size: 20px;
-    text-align: center;
-    border-bottom: grey solid 1.5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(65, 61, 61);
+.register .field {
+   margin-bottom: 1rem;
+ 
 }
 
-.campo {
-    width: 100%;
+.register label {
+   display: block;
 }
 
-.boton {
-    border-radius: 5px;
-    background-color: rgb(173, 168, 168);
-    border: solid grey 0.25px;
+.register input {
+   display: block;
+   padding: .5rem;
+   width: 100%;
+   box-sizing: border-box;
 }
 
-  /* FOOTER */
+.register button {
+   padding: .5rem;
+}
 
-.footer1 {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 15vh;
-    border-top: solid grey 2px;
-    /*background-color: rgb(235, 247, 132);*/
-  }
-  
-  .nav-footer1 {
-    float: left;
-    padding: 10px;
-    margin: 20px 30px 20px 50px;
-  }
-  
-  .nav-footer2 {
-    float: left;
-    padding: 10px;
-    margin: 20px 20px 20px 30px;
-  }
-  
-  .nav-footer1 li a,
-  .nav-footer2 li a {
-    color: rgb(94, 91, 91);
-    font-size: 15px;
-  }
-  
-  .section3 {
-    float: right;
-    position: absolute;
-    right: 50px;
-    top: 15px;
-  }
-  
-  .p1 {
-    color: rgb(94, 91, 91);
-    font-size: 15px;
-  }
-  
-  .p2 {
-    color: rgb(94, 91, 91);
-    font-size: 15px;
-    float: right;
-    margin: 0px 0px 15px 0px;
-  }
-  
-  .p3 {
-    float: right;
-    margin: 0px 0px 0px 10px;
-    color: rgb(94, 91, 91);
-    font-size: 15px;
-    border: solid rgb(128, 126, 126) 0.5px;
-    background-color: rgb(192, 189, 189);
-  }
-  
-  .img3 {
-    float: right;
-    position: absolute;
-    right: 181px;
-    bottom: 5px;
-    width: 10%;
-    opacity: 100%;
-  }
-  
+.register form.submission-attempted input:invalid {
+   border: 1px solid #b00;
