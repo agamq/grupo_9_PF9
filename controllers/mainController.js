@@ -10,24 +10,19 @@ function readHTML (fileName) {
 
 const controller = {
 	root: (req, res) => {
-		let html = readHTML('index');
-		res.send(html);
+		res.render('index');
 	},
 	product: (req, res) => {
-		let html = readHTML('productDetail');
-		res.send(html);
+		res.render('productDetail');
 	},
 	cart: (req, res) => {
-		let html = readHTML('productCart');
-		res.send(html);
+		res.render('productCart');
 	},
 	register: (req, res) => {
-		let html = readHTML('register');
-		res.send(html);
+		res.render('register');
 	},
 	productAdd: (req, res) => {
-		let html= readHTML('productAdd');
-		res.send(html);
+		res.render('productAdd');
 	},
 };
 
