@@ -34,8 +34,8 @@ header{
   margin: 0;
   left: 100px;
   position: relative;
-  /*border: solid blue 3px;
-  background-color: cornflowerblue;*/
+  /* border: solid blue 3px;
+  background-color: cornflowerblue; */
   overflow: hidden;
   border-bottom: solid grey 2px;
 }
@@ -45,6 +45,9 @@ header{
   position: absolute;
   left: 100px;
   top: 10px;
+  height: 25vH;
+  /* border: solid red 3px;
+  background-color: pink; */
 }
 
 .img1 {
@@ -193,7 +196,7 @@ margin: auto;
 .img4 {
   float: right;
   position: absolute;
-  left: 700px;
+  left: 720px;
   bottom: 15px;
   opacity: 100%;
   top: 120px;
@@ -205,10 +208,10 @@ margin: auto;
 .img5 {
   float: right;
   position: absolute;
-  left: 700px;
+  left: 720px;
   bottom: 15px;
   opacity: 100%;
-  top: 0px;
+  top: 15px;
   width: 50px;
   height: 50px;
 }
