@@ -8,5 +8,40 @@
 <body>
 	<h1>Sección para carrito de compras</h1>
 
+	<table class="shopping-cart">
+		<thead>
+			<tr>
+				<th scope="col">Item</th>
+				<th scope="col">Cantidad</th>
+				<th scope="col">Precio</th>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<p id="Subtotal">
+		<strong>Subtotal</strong>: 
+	</p>
+	<ul id="shopping-cart-actions">
+		<li>
+			<input type="submit" class="button" value="Actualizar carrito" />
+			<!-- la idea es que en esta sección se pueda modificar la cantidad y el botón refresca el carrito-->
+		</li>
+		<li>
+			<!-- Te permite vaciar todo e iniciar de vuelta -->
+			<input type="submit" class="button" value="Vaciar carrito"/>
+			
+		</li>
+		<li>
+			<!-- Te lleva a la sección donde diseñas una remera -->
+			<button class="b1"><a href="/">Seguir comprando</a></button>
+		</li>
+		<li>
+			<!-- Te lleva a la sección de pago -->
+				<button class="b1"><a href="/checkout">Checkout</a></button>
+		</li>
+	</ul>
+</form>
+
 </body>
 </html>
+

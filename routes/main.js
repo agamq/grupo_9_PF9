@@ -12,5 +12,5 @@ router.get('/producto', mainController.product);
 router.get('/carrito', mainController.cart);
 router.get('/registro', mainController.register);
 router.get('/formulariocargaproducto', mainController.productAdd);
-
+router.get('/checkout', mainController.checkout)
 module.exports = router;
