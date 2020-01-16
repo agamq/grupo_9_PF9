@@ -9,6 +9,8 @@ Personas que deseen crear sus propios diseños o desean una prenda más personal
 ¿Cómo ajustamos nuestra oferta a ese público?
 Ofrecemos un sitio dinámico, fácil de utilizar, donde podés visualizar todos los cambios / detalles en vivo conforme la vas diseñando. El sitio posee una sección de galería de clientes satisfechos usando sus productos, una sección de diseños populares pre-hechos más algunos creados por la comunidad. Adicionalmente el sitio cuenta con una guía de talles y una sección de Q&A, así como chat con un bot + agente.
 
+Trello URL: https://trello.com/b/PAadw4cA/integradordh-grupo9 
+
 Sitios de referencia:
 
 https://www.printful.com/es/personalizables/ropa-mujer
